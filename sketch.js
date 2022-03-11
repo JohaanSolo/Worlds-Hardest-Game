@@ -68,7 +68,7 @@ function playersBullets() {
     var playerBullet = createSprite(player.x, player.y, window.innerWidth/70, window.innerHeight/15);
     playerBullet.setCollider("rectangle", 0, 0, window.innerWidth/70, window.innerHeight/15);
     playerBullet.velocityY = - 15;
-    playerBullet.debug = true;
+    playerBullet.debug = false;
     playerBulletsGroup.add(playerBullet);
     playerBullet.lifetime = 750;
     bulletsRemain = bulletsRemain - 1;
