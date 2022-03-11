@@ -103,7 +103,7 @@ function spawnAliens() {
       leftAlien.velocityX = 4;
       aliensGroup.add(leftAlien);
       leftAliensGroup.add(leftAlien);
-      leftAlien.debug = true;
+      leftAlien.debug = false;
     }
   
     if (frameCount%160===0) {
@@ -134,7 +134,7 @@ function spawnAliens() {
       aliensGroup.add(rightAlien);
       rightAliensGroup.add(rightAlien);
   
-      rightAlien.debug = true;
+      rightAlien.debug = false;
     }
 }
 
